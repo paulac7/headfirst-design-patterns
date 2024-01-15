@@ -16,5 +16,6 @@ public abstract class PizzaStore
         return pizza;
     }
 
+    // factory method
     public abstract Pizza createPizza(String type);
 }
