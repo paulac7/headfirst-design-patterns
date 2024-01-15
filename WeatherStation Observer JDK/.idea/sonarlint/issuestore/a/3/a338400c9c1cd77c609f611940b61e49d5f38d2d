@@ -1,0 +1,17 @@
+
+a
+java:S1854"DRemove this useless assignment to local variable "heatIndexDisplay".(‹œşñ8¿àÑÏË1
+_
+java:S1854"CRemove this useless assignment to local variable "forecastDisplay".(¤äÚ?8äã®ÏË1
+g
+java:S1854"ERemove this useless assignment to local variable "statisticsDisplay".(ºßÌ°ûÿÿÿÿ8åã®ÏË1
+i
+java:S1854"LRemove this useless assignment to local variable "currentConditionsDisplay".(ÆÇ‘ç8Ï‡„ÏË1
+Z
+java:S1481"=Remove this unused "currentConditionsDisplay" local variable.(ÆÇ‘ç8Õ‡„ÏË1
+X
+java:S1481"6Remove this unused "statisticsDisplay" local variable.(ºßÌ°ûÿÿÿÿ8çã®ÏË1
+P
+java:S1481"4Remove this unused "forecastDisplay" local variable.(¤äÚ?8èã®ÏË1
+R
+java:S1481"5Remove this unused "heatIndexDisplay" local variable.(‹œşñ8ÃàÑÏË1
