@@ -1,4 +1,4 @@
-package weather.o.rama;
+package weather.o.rama.jdk;
 
 import java.util.Observable;
 

@@ -1,7 +1,6 @@
 package pizzastore.franchise;
 
 import pizza.Pizza;
-import pizza.california.CaliforniaStyleCheesePizza;
 import pizzastore.PizzaStore;
 
 public class CaliforniaPizzaStore extends PizzaStore

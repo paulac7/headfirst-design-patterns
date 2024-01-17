@@ -1,6 +1,6 @@
 package weatherstation;
 
-import weather.o.rama.WeatherData;
+import weather.o.rama.jdk.WeatherData;
 import weatherstation.display.CurrentConditionsDisplay;
 import weatherstation.display.ForecastDisplay;
 import weatherstation.display.HeatIndexDisplay;

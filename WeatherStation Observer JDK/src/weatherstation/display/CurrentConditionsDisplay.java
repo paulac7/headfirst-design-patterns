@@ -1,6 +1,6 @@
 package weatherstation.display;
 
-import weather.o.rama.WeatherData;
+import weather.o.rama.jdk.WeatherData;
 
 import java.util.Observable;
 import java.util.Observer;
