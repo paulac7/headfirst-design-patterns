@@ -13,6 +13,10 @@ import ingredients.Vegetable;
  */
 public class Spinach implements Vegetable
 {
+	@Override public String toString()
+	{
+		return "Spinach";
+	}
 }
 /* ---------------------------------------------------------------------*
  * This software is the confidential and proprietary

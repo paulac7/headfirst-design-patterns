@@ -11,39 +11,40 @@ import ingredients.Dough;
 import ingredients.Pepperoni;
 import ingredients.Sauce;
 import ingredients.Vegetable;
-import ingredients.impl.FrozenClams;
-import ingredients.impl.Mozzarella;
-import ingredients.impl.PlumTomatoSauce;
+import ingredients.impl.BruschettaSauce;
+import ingredients.impl.Calamari;
+import ingredients.impl.GoatsCheese;
 import ingredients.impl.SlicedPepperoni;
-import ingredients.impl.ThickCrustDough;
-import ingredients.impl.veggies.BlackOlives;
+import ingredients.impl.VeryThinCrustDough;
+import ingredients.impl.veggies.Broccoli;
 import ingredients.impl.veggies.EggPlant;
-import ingredients.impl.veggies.Spinach;
+import ingredients.impl.veggies.Mushroom;
+import ingredients.impl.veggies.RedOnion;
 
 /**
  * @author PaulC
  * @since 17/01/2024
  */
-public class ChicagoPizzaIngredientFactory implements PizzaIngredientsFactory
+public class CaliforniaPizzaIngredientFactory implements PizzaIngredientsFactory
 {
 	@Override public Dough createDough()
 	{
-		return new ThickCrustDough();
+		return new VeryThinCrustDough();
 	}
 
 	@Override public Sauce createSauce()
 	{
-		return new PlumTomatoSauce();
+		return new BruschettaSauce();
 	}
 
 	@Override public Cheese createCheese()
 	{
-		return new Mozzarella();
+		return new GoatsCheese();
 	}
 
 	@Override public Vegetable[] createVeggies()
 	{
-		return new Vegetable[] { new EggPlant(), new Spinach(), new BlackOlives() };
+		return new Vegetable[] { new Mushroom(), new EggPlant(), new Broccoli(), new RedOnion() };
 	}
 
 	@Override public Pepperoni createPepperoni()
@@ -53,7 +54,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientsFactory
 
 	@Override public Clams createClam()
 	{
-		return new FrozenClams();
+		return new Calamari();
 	}
 }
 /* ---------------------------------------------------------------------*

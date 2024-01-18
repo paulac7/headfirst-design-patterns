@@ -13,6 +13,10 @@ import ingredients.Vegetable;
  */
 public class EggPlant implements Vegetable
 {
+	@Override public String toString()
+	{
+		return "Egg Plant";
+	}
 }
 /* ---------------------------------------------------------------------*
  * This software is the confidential and proprietary

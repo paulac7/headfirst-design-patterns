@@ -13,6 +13,10 @@ import ingredients.Vegetable;
  */
 public class BlackOlives implements Vegetable
 {
+	@Override public String toString()
+	{
+		return "Black Olives";
+	}
 }
 /* ---------------------------------------------------------------------*
  * This software is the confidential and proprietary

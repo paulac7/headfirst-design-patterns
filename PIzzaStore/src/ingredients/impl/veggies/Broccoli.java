@@ -11,11 +11,11 @@ import ingredients.Vegetable;
  * @author PaulC
  * @since 17/01/2024
  */
-public class Onion implements Vegetable
+public class Broccoli implements Vegetable
 {
 	@Override public String toString()
 	{
-		return "Onion";
+		return "Broccoli";
 	}
 }
 /* ---------------------------------------------------------------------*

@@ -13,6 +13,10 @@ import ingredients.Vegetable;
  */
 public class Garlic implements Vegetable
 {
+	@Override public String toString()
+	{
+		return "Garlic";
+	}
 }
 /* ---------------------------------------------------------------------*
  * This software is the confidential and proprietary

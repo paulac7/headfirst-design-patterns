@@ -3,19 +3,19 @@
  * File created: 17/01/2024 by PaulC
  * Creator : PaulC
  */
-package ingredients.impl.veggies;
+package ingredients.impl;
 
-import ingredients.Vegetable;
+import ingredients.Sauce;
 
 /**
  * @author PaulC
  * @since 17/01/2024
  */
-public class Onion implements Vegetable
+public class BruschettaSauce implements Sauce
 {
 	@Override public String toString()
 	{
-		return "Onion";
+		return "Bruschetta Sauce";
 	}
 }
 /* ---------------------------------------------------------------------*

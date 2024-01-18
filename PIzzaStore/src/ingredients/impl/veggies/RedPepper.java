@@ -13,6 +13,10 @@ import ingredients.Vegetable;
  */
 public class RedPepper implements Vegetable
 {
+	@Override public String toString()
+	{
+		return "Red Pepper";
+	}
 }
 /* ---------------------------------------------------------------------*
  * This software is the confidential and proprietary
