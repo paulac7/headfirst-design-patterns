@@ -2,11 +2,11 @@ package home.automation.command;
 
 import home.automation.api.GarageDoor;
 
-public class GarageDoorOpenCommand implements Command
+public class GarageDoorCloseCommand implements Command
 {
     private final GarageDoor garageDoor;
 
-    public GarageDoorOpenCommand(GarageDoor garageDoor)
+    public GarageDoorCloseCommand(GarageDoor garageDoor)
     {
         this.garageDoor = garageDoor;
     }
@@ -14,12 +14,12 @@ public class GarageDoorOpenCommand implements Command
     @Override
     public void execute()
     {
-        garageDoor.up();
+        garageDoor.down();
     }
 
     @Override
     public void undo()
     {
-        garageDoor.down();
+        garageDoor.up();
     }
 }

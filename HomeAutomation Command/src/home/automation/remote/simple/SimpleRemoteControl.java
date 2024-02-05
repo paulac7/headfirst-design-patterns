@@ -1,4 +1,4 @@
-package home.automation;
+package home.automation.remote.simple;
 
 import home.automation.command.Command;
 

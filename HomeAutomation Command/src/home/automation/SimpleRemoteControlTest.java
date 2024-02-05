@@ -4,6 +4,7 @@ import home.automation.api.GarageDoor;
 import home.automation.api.Light;
 import home.automation.command.GarageDoorOpenCommand;
 import home.automation.command.LightOnCommand;
+import home.automation.remote.simple.SimpleRemoteControl;
 
 public class SimpleRemoteControlTest
 {

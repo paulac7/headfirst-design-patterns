@@ -2,12 +2,12 @@ package home.automation.command;
 
 import home.automation.api.Light;
 
-public class LightOnCommand implements Command
+public class LightOffCommand implements Command
 {
 
     private final Light light;
 
-    public LightOnCommand(Light light)
+    public LightOffCommand(Light light)
     {
         this.light = light;
     }
@@ -15,12 +15,12 @@ public class LightOnCommand implements Command
     @Override
     public void execute()
     {
-        light.on();
+        this.light.off();
     }
 
     @Override
     public void undo()
     {
-        light.off();
+        this.light.on();
     }
 }
