@@ -42,8 +42,17 @@ public class RemoteLoader
 
         System.out.println(remote);
 
+        System.out.println("Light undo test.....");
         remote.onButtonPressed(0);
         remote.offButtonPressed(0);
+        System.out.println(remote);
+        remote.undoButtonPressed();
+        remote.offButtonPressed(0);
+        remote.onButtonPressed(0);
+        System.out.println(remote);
+        remote.undoButtonPressed();
+
+        System.out.println("\n" + "Other appliances.....");
         remote.onButtonPressed(1);
         remote.offButtonPressed(1);
         remote.onButtonPressed(2);
