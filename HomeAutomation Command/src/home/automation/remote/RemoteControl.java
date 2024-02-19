@@ -55,9 +55,9 @@ public class RemoteControl
         builder.append("\n------ Remote Control ------\n");
         for (int i = 0; i < onCommands.length; i++)
         {
-            builder.append("[slot " + i + "] " + onCommands[i].getClass().getName() + "\t\t\t\t" + offCommands[i].getClass().getName() + "\n");
+            builder.append(String.format("%-10.10s %-70.70s %-60.60s%n", "[slot " + i + "]", onCommands[i].getClass().getName(), offCommands[i].getClass().getName()));
         }
-        builder.append("[undo] " + undoCommand.getClass().getName() + "\n");
+        builder.append(String.format(String.format("%-10.10s %-70.70s", "[undo]", undoCommand.getClass().getName())));
         return builder.toString();
     }
 
