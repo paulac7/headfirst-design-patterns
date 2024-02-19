@@ -3,35 +3,32 @@ package home.automation.api;
 public class CeilingFan
 {
 
-    private FanSpeed fanSpeed;
+    private FanSpeed fanSpeed = FanSpeed.OFF;
 
 
     public void high()
     {
         this.fanSpeed = FanSpeed.HIGH;
-        getSpeed();
     }
 
     public void medium()
     {
         this.fanSpeed = FanSpeed.MEDIUM;
-        getSpeed();
     }
 
     public void low()
     {
         this.fanSpeed = FanSpeed.LOW;
-        getSpeed();
     }
 
     public void off()
     {
-        System.out.println("Fan is off");
+       this.fanSpeed = FanSpeed.OFF;
     }
 
-    public void getSpeed()
+    public FanSpeed getSpeed()
     {
-        System.out.println("Fan is on " + this.fanSpeed.toString().toLowerCase());
+        return this.fanSpeed;
     }
 
 }

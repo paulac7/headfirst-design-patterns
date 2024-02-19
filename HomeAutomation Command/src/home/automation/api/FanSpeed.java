@@ -4,5 +4,6 @@ public enum FanSpeed
 {
     HIGH,
     MEDIUM,
-    LOW
+    LOW,
+    OFF
 }

@@ -2,10 +2,10 @@ package home.automation.command;
 
 import home.automation.api.CeilingFan;
 
-public class CeilingFanOffCommand extends CeilingFanCommand
+public class CeilingFanMediumCommand extends CeilingFanCommand
 {
 
-    public CeilingFanOffCommand(CeilingFan fan)
+    public CeilingFanMediumCommand(CeilingFan fan)
     {
         super(fan);
     }
@@ -14,7 +14,7 @@ public class CeilingFanOffCommand extends CeilingFanCommand
     public void execute()
     {
         super.execute();
-        this.fan.off();
+        this.fan.medium();
         this.printSpeed();
     }
 }
